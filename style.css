@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;0,800;0,900;1,100;1,200;1,400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 1200;
+    float: left;
+    height: 70px;
+}
+.imge{
+    width: 50px;
+    height: 50px;
+    padding-top: 38px;
+    margin-left:-206px;
+    
+}
+
+
+.logo {
+    color:rgba(232, 101, 188, 0.867);
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* padding-left: 10px; */
+    float: left;
+    padding-top: 45px;
+    /* border: 1px solid black; */
+     margin-left:-109px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin: 50px;
+
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 14px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+
+}
+
+ul li a:hover {
+    color: red;
+    background: none;
+}
+
+ /* ul li a:visited { 
+    color:greenyellow;
+}  */
+
+.search {
+    width: 300px;
+    float: left;
+    margin-left: 350px;
+    display: flex;
+    padding-top: 5px;
+
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid burlywood;
+    border-bottom: 3px solid burlywood;
+    margin-top: 45px;
+    color: black;
+    font-size: 16px;
+    border-right: none;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: #ddd;
+    border: 1px solid burlywood;
+    border-bottom: 3px solid burlywood;
+    margin-top: 45px;
+    /* margin-left: 200px; */
+    color: black;
+    font-size: 16px;
+    /* float:900px; */
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    float: left;
+    color: black;
+    position: relative;
+    /* margin-top: 30px; */
+    /* margin-left: 45px; */
+    /* padding: 3 px; */
+}
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size:20px;
+    padding: 8px;
+    margin-left: 50px;
+}
+.content h1{
+    font-family: 'Poppins';
+    font-size: 40px;
+    padding-left: 25px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(236, 214, 207);
+    
+    list-style: none;
+    border-radius: 10px;
+    margin-left: 55px;
+    cursor: pointer;
+    transition: 0.4 sase;
+}
+.content .cn a{
+    text-decoration: none;
+    color:black;
+    transition:0.3s ease;
+    text-align: center;  
+} 
+.cn:hover{
+    background-color: lightblue;
+    
+}
+.content span{
+    color: #f9dd;
+}
+ span:hover{
+    color:rgba(86, 14, 86, 0.533);
+    font-size: 65px;
+}
+.content h1{
+    color: rgba(159, 88, 55, 0.977);
+}
+ .content h1:hover{
+    color:rgba(86, 14, 86, 0.533);
+    font-size: 65px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background-color: #2e9c3713;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.636);
+
+    text-align: center;
+    font-size: 17px;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+}
+.form input{
+    width: 230px;
+    height: 45px;
+    background:transparent;
+    border: 3px solid brown;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* color: rgb(28, 23, 23); */
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    padding: 4px;
+    font-family:sans-serif ;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+    font-family: arial;
+    font-size: 14px;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background-color:rgb(236, 214, 207);
+    border: none;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background-color:lightblue ;
+    color:black;
+}
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+}
+
+a:hover{
+    background-color:lightblue ;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+  /* For round icons use this */
+  .fa {
+    padding : 6px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 17px;
+    
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+    lighting-color:rgb(233, 233, 150);
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+.fa-google {
+    background: #dd3939;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+
+  }
+  
